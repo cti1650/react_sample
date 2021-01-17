@@ -1,3 +1,58 @@
+# React_sample
+
+React でWEBアプリを作成する際のテンプレート
+
+## ローカルへのコピー
+
+以下を clone  
+```bash
+git clone https://github.com/cti1650/react_sample.git
+```
+
+## リポジトリを複製する
+
+1. Git Bash を開いてください。
+
+2. リポジトリのベアクローンを作成します。   
+   ```bash
+   git clone --bare https://github.com/cti1650/react_sample.git
+   ```
+
+3. 新しいリポジトリをミラープッシュします。(--mirror 以降は複製先のリポジトリを指定)  
+   ```bash
+   cd react_sample.git
+   git push --mirror [複製先リポジトリURL]
+   ```
+
+4. 先ほど作成した一時ローカルリポジトリを削除します。  
+   ```bash
+   cd ..
+   rm -rf react_sample.git
+   ```
+   
+5. 先ほど作成した複製先のリポジトリをクローンします。  
+   ```bash
+   git clone [複製先リポジトリURL]
+   ```
+   
+6. 必要な機能をインストールする。  
+   ```bash
+   npm install
+   ```
+   
+7. 動作確認  
+   ```bash
+   npm start
+   ```
+   
+   ブラウザで [http://localhost:3000/](http://localhost:3000/) を開く
+
+## 参考サイト
+> [GitHubでCloneでもForkでもなくリポジトリの複製が欲しい](https://qiita.com/taquaki-satwo/items/f8482c45dc91b6df9d34)  
+> [Reactの基礎を学ぶ](https://qiita.com/tsuuuuu_san/items/58f82201ded0da420201)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
