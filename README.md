@@ -48,7 +48,7 @@ git clone https://github.com/cti1650/react_sample.git
    ブラウザで [http://localhost:3000/](http://localhost:3000/) を開く
 
 ## 参考サイト
-> [GitHubでCloneでもForkでもなくリポジトリの複製が欲しい](https://qiita.com/taquaki-satwo/items/f8482c45dc91b6df9d34) 
+> [GitHubでCloneでもForkでもなくリポジトリの複製が欲しい](https://qiita.com/taquaki-satwo/items/f8482c45dc91b6df9d34)  
 > [Reactの基礎を学ぶ](https://qiita.com/tsuuuuu_san/items/58f82201ded0da420201)
 
 ---
