@@ -1,6 +1,6 @@
-# html_sample
+# React_sample
 
-html でシングルページサイトを作成する際のテンプレート
+React でWEBアプリを作成する際のテンプレート
 
 ## ローカルへのコピー
 
@@ -34,6 +34,18 @@ git clone https://github.com/cti1650/react_sample.git
    ```bash
    git clone [複製先リポジトリURL]
    ```
+   
+6. 必要な機能をインストールする。  
+   ```bash
+   npm install
+   ```
+   
+7. 動作確認  
+   ```bash
+   npm start
+   ```
+   
+   ブラウザでhttp://localhost:3000/を開く
 
 > [GitHubでCloneでもForkでもなくリポジトリの複製が欲しい](https://qiita.com/taquaki-satwo/items/f8482c45dc91b6df9d34)
 
